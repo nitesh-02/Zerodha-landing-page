@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+   padding-bottom: 28px;
+    padding-left: 210px;
+    padding-right: 210px;
+    padding-top: 23px;
+    border: 2px solid #eee;
+    margin-bottom: 80px;
+}
+
+.rightSide{
+    display: flex;
+}
+
+.sidepanels{
+      padding-right: 30px;
+      color: #666;
+      cursor: pointer;
+}
+
+#logo {
+   max-height: 17px;
+   max-width: 100%;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+#button {
+    background-color: #387ed1;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
